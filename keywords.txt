@@ -1,0 +1,20 @@
+#######################################
+# Syntax Coloring Map For XLOT-QuadSwitch
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+XLOT_QuadSwitch	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+readAllSwitches	KEYWORD2
+readSwitch	KEYWORD2
+setLED	KEYWORD2
+setLEDColor	KEYWORD2
+setLEDBrightness	KEYWORD2
