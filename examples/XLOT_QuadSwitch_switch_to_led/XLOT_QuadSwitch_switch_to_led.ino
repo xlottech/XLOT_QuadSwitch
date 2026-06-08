@@ -1,3 +1,6 @@
+/*
+quad.setLED(0, 255,   0,   0,  40);
+鍙傛暟璇存槑NOTE:锛堢鍑犱釜鐏彔which RGB(0-3)锛孯(0-255),G(0-255),B(0-255)锛屼寒搴rightness(0-255)锛?*/
 #include <Wire.h>
 #include "XLOT_QuadSwitch.h"
 
@@ -14,10 +17,8 @@ void loop() {
     uint8_t v = quad.readSwitch(i);
 
     if (v == 1) {
-      quad.setLED(i, 0, 255, 0, 40);   // 开 = 绿
-    } else {
-      quad.setLED(i, 255, 0, 0, 40);   // 关 = 红
-    }
+      quad.setLED(i, 0, 255, 0, 40);   // 寮€ = 缁?    } else {
+      quad.setLED(i, 255, 0, 0, 40);   // 鍏?= 绾?    }
   }
 
   Serial.print("SW1=");
